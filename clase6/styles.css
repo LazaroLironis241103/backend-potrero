@@ -1,0 +1,36 @@
+form {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Estilo de las etiquetas */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo de los campos de texto */
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+/* Estilo del botón */
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo del botón de enviar al pasar el mouse */
+input[type="submit"]:hover {
+  background-color: #3A9E48;
+}
