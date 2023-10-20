@@ -1,0 +1,105 @@
+/* Estilo general del body */
+body {
+    /* Color de fondo */
+    background-color: #f0f0f0;
+    /* Fuente del texto */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo del navbar */
+  .navbar {
+    /* Color de fondo */
+    background-color: #333;
+    /* Altura del navbar */
+    height: 50px;
+  }
+  
+  /* Estilo de los elementos del navbar */
+  .navbar ul {
+    /* Quitar los puntos de la lista */
+    list-style: none;
+    /* Quitar el margen y el relleno de la lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    /* Mostrar los elementos en línea */
+    display: inline-block;
+  }
+  
+  .navbar a {
+    height: 100%;
+    /* Color del texto */
+    color: white;
+    /* Alinear el texto al centro */
+    text-align: center;
+    /* Posicionar el texto en el medio verticalmente */
+    line-height: 50px;
+    /* Quitar el subrayado del texto */
+    text-decoration: none;
+    /* Espacio entre los elementos */
+    padding: 0 20px;
+  }
+  
+  /* Cambiar el color del texto al pasar el mouse */
+  .navbar li:hover {
+     background-color: rgb(13, 3, 71);
+  }
+  
+  /* Estilo del contenedor */
+  .container {
+    /* Ancho del contenedor */
+    width: 600px;
+    /* Margen del contenedor */
+    margin: auto;
+  }
+  
+  /* Estilo del título */
+  h1 {
+    /* Color del título */
+    color: #333;
+  }
+  
+  /* Estilo de los elementos del formulario */
+  input, label, select {
+    /* Mostrar los elementos en bloque */
+    display: block;
+  }
+  
+  label {
+    /* Color de la etiqueta */
+    color: #333;
+  }
+  
+  input, select {
+    /* Ancho de los elementos */
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #a1d1f5;
+    color: #64696d;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="submit"] {
+     /* Color de fondo del botón */
+     background-color: #333;
+     /* Color del texto del botón */
+     color: white;
+     /* Altura del botón */
+     height: 40px;
+     /* Borde redondeado del botón */
+     border-radius: 10px;
+  }
+  
+  input[type="submit"]:hover {
+     /* Cambiar el color de fondo al pasar el mouse */
+     background-color: rgb(13, 3, 71);
+  }
+  

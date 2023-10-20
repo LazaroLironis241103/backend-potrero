@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#">Lista de productos</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Datos de Compra</h1>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Numero telefonico:</label>
+            <input type="number" id="telefono" name="telefono" required>
+          
+            <label for="producto">Que producto buscas</label>
+            <select id="producto" name="producto" required>
+              <option value="">Selecciona una opción</option>
+              <option value="camiseta">Shampoo</option>
+              <option value="pantalon">Acondicionador</option>
+              <option value="zapatos">Gel o Cera</option>
+            </select>
+          
+            <label for="marca">Marca del producto:</label>
+            <select id="marca" name="marca" required>
+              <option value="">Selecciona una opción</option>
+              <option value="nike">L'Oreal</option>
+              <option value="adidas">Kerastase</option>
+              <option value="reebok">Pantene</option>
+            </select>
+          
+            <label for="precio">Precio del producto:</label>
+            <label for="p2">Shampoo</label>
+            <input type="number" id="p1" name="p1" value="7.000" readonly><br>
+            <label for="p2">Acondicionador</label>
+            <input type="number" id="p2" name="p2" value="6.500" readonly><br>
+            <label for="p3">Gel o Cera</label>
+            <input type="number" id="p3" name="p3" value="2.000" readonly><br>
+          
+            <input type="submit" value="Confirmar datos de compra">
+          </form>
+    </div>
+</body>
+</html>
