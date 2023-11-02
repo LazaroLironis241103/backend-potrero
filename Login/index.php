@@ -10,7 +10,7 @@
   <h2>Login</h2>
   <form>
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" id="nombreUsuario" name="nombreUsuario" required="">
       <label>Username</label>
     </div>
     <div class="user-box">
